@@ -265,7 +265,18 @@ ul li a,a{
 	display: none;
 }
 
+.section_title {
+	text-align: center;
+}
 
+.section_title h2 {
+	font-size: 32px; 
+	font-weight: 500;
+}
+
+.footer_area {
+	padding: 40px 0;
+}
 
 
 /*======================  End Page  ======================*/

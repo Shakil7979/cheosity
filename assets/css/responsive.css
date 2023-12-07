@@ -76,6 +76,9 @@
     .banner_right_flex { 
         justify-content: space-between;
     }
+    .section_title h2 {
+        font-size: 22px; 
+    }
 }
 
 @media all and (max-width: 575px){
@@ -102,6 +105,9 @@
     }
     .logo a img {
         width: 135px;
+    }
+    .footer_area {
+        padding: 24px 0;
     }
 }
 
