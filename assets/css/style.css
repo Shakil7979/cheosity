@@ -39,6 +39,7 @@ ul li a,a{
 
 .top_header_menu ul li a:hover{
 	opacity: 0.83;
+	color: #67BD1A;
 }
 
 
@@ -61,6 +62,15 @@ ul li a,a{
 
 .menu ul li a:hover{
 	opacity: 0.83;
+	color: #67BD1A;
+}
+
+.header_btn.desktop_none a {
+	color: #fff;
+}
+
+.header_btn.desktop_none a:hover {
+	color: #fff;
 }
 
 .header_btn a {

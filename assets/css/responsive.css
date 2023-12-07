@@ -1,4 +1,9 @@
  
+@media all and (min-width: 991px){
+    .menu ul{
+        display: flex !important;
+    }
+}
 @media all and (max-width: 991px){
 	.menu_icon{
         display: block;
@@ -61,7 +66,15 @@
         width: 35px;
     }
     .banner_item {
-        flex: 0 0 48%; 
+        flex: 0 0 48%;
+        flex-direction: column;
+    }
+    .banner_right {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .banner_right_flex { 
+        justify-content: space-between;
     }
 }
 
